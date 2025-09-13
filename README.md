@@ -2,6 +2,8 @@
 
 A native macOS Pomodoro timer app with a Flask backend for session tracking and statistics. Features a beautiful tray icon interface and comprehensive session management.
 
+> ⚠️ **WARNING**: This project was vibe-coded for fun, lulz, and the pure joy of building something cool in a single session. Use at your own risk and expect occasional quirks! 😄
+
 ## ✨ Features
 
 ### 🎯 **Native macOS Integration**
