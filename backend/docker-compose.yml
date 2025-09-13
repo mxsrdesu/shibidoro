@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  shibidoro-backend:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./data:/app/data
+    environment:
+      - FLASK_ENV=production
+      - SQLALCHEMY_DATABASE_URI=sqlite:///data/shibidoro.db
+    restart: unless-stopped
+
+volumes:
+  data:
